@@ -1006,7 +1006,7 @@ ul {
     display: none !important;
   }
   #work-a {
-    height: 90vh;
+    height: 100vh;
   }
   #work-a .item-text-title {
     font-size: 0.8rem;
@@ -1164,7 +1164,10 @@ ul {
     margin-left: 24%;
   }
   #work-a {
-    height: 240vh;
+    height: 270vh;
+  }
+  #work-a h1 {
+    font-size: 3rem;
   }
   #work-a .item-text-title {
     font-size: 0.8rem;

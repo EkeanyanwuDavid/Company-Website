@@ -88,7 +88,7 @@
 
   #work {
     &-a {
-      height: 90vh;
+      height: 100vh;
       .item {
         &-text-title {
           font-size: 0.8rem;
@@ -295,8 +295,10 @@
 
   #work {
     &-a {
-      height: 240vh;
-
+      height: 270vh;
+      h1 {
+        font-size: 3rem;
+      }
       .item {
         &-text-title {
           font-size: 0.8rem;
