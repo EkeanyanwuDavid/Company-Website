@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/23cf488eed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="/dist/img/IMG-20250724-WA0004.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="/dist/img/IMG-20250724-WA0004.jpg"
+      type="image/x-icon"
+    />
+
+    <title>Benny Elite Engineering | Join our Team</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <h2 class="logo bold">Benny Elite Engineering Limited</h2>
+          <div class="menu-wrap">
+            <input type="checkbox" name="" class="toggler" />
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">History</a></li>
+                    <li><a href="services.html">What we do</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li>
+                      <a href="register.html" class="current">Join our Team</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">History</a></li>
+            <li>
+              <a href="services.html">Services</a>
+            </li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+          <a href="register.html" class="end-link btn-main"> Join our Team</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Register -->
+
+    <section id="register">
+      <div class="container">
+        <div class="register-writeup">
+          <h2>Join Our Team</h2>
+
+          <p class="card">
+            We're excited to have you consider joining us.<br />
+            Please fill the form below to drop your CV and become part of our
+            growing family.
+          </p>
+        </div>
+
+        <div class="register-section">
+          <form
+            action="https://formspree.io/f/mrblqdrz"
+            method="POST"
+            enctype="multipart/form-data"
+            id="registerForm"
+          >
+            <p class="m-heading">Apply Here</p>
+            <input type="text" name="name" id="name" placeholder="Name" />
+
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <input type="tel" name="phone" id="phone" placeholder="Phone" />
+
+            <input type="url" name="link" id="link" placeholder="Link To Cv" />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your Reason for Applying"
+            ></textarea>
+            <!-- <div class="upload-wrapper">
+              <label for="cv-upload" class="upload-label">Upload CV</label>
+              <input
+                type="file"
+                name="file"
+                id="cv-upload"
+                class="upload-input"
+                accept=".pdf, .doc, .docx"
+                onchange="handleCvUpload()"
+                style="display: none"
+              />
+              <div id="cvStatus" style="margin-top: 10px"></div>
+              <p id="file-name" class="file-name-text"></p>
+            </div> -->
+
+            <input type="hidden" name="_redirect" value="thank-you.html" />
+            <input type="hidden" name="_subject" value="New submission!" />
+            <button type="submit" class="btn-main" id="submit">Submit</button>
+          </form>
+          <div id="my-form-status"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p class="name">
+          &copy;2025 by Benny Elite Engineering Limited, All Rights Reserved
+        </p>
+
+        <div class="social">
+          <a href="tel:+2348032072628" class="footer-social"
+            ><i class="fas fa-phone"></i
+          ></a>
+
+          <a
+            href="bennyengineeringltd@gmail.com"
+            target="_blank"
+            class="footer-social"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

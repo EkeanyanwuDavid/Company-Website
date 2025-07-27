@@ -1,0 +1,15 @@
+// Variables
+$website-width: 1700px;
+$main-color: #a2c4e0;
+$light-color: hsl(0, 0%, 96%);
+$medium-color: #3b6941;
+$dark-color: #333;
+$bg-img: url("/dist/img/ej-yao-D46mXLsQRJw-unsplash.jpg");
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
