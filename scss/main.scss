@@ -44,9 +44,13 @@ ul {
   align-items: center;
   padding: 1rem 2rem;
 
+  .logoo {
+    border: none;
+  }
   .logo {
     flex: 1;
     margin-left: 0;
+    text-transform: none !important;
     padding-left: 0.5rem;
     font-size: 1rem;
     color: #d3d9d4;
