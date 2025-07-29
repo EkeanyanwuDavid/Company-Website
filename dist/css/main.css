@@ -162,16 +162,16 @@
 .item-text-title {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #0871c7;
+  color: #124e66;
   text-transform: none;
   padding: 0 1rem;
   margin: 5px 0 0 0;
 }
 .item-text-category {
   font-size: 2rem;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 700;
+  text-transform: none;
+  color: #233944;
+  font-weight: 600;
   opacity: 0.7;
   margin: 0;
 }
@@ -433,7 +433,7 @@ ul {
 #main-nav a {
   text-decoration: none;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;
   transition: border-color 0.5s;
@@ -452,15 +452,16 @@ ul {
 }
 #header-home .title {
   text-align: left;
-  font-size: 3.2rem;
+  font-size: 2.7rem;
   padding-top: 10%;
 }
 #header-home p {
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
 }
 #header-home .content-btn {
   padding-top: 1.4rem;
+  font-size: 0.9rem;
 }
 #header-home .content-btn a {
   margin-right: 1.4rem;
@@ -504,10 +505,10 @@ ul {
 }
 #home-a .main-wrapper .hero-section .overlay-text {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 42%;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: left;
   font-weight: 500;
   line-height: 1.5;
@@ -525,11 +526,12 @@ ul {
   padding-top: 30%;
   display: flex;
   text-align: left;
+  gap: 50px;
   justify-content: space-between;
 }
 #home-a .main-wrapper .hero-section .info-text .headline {
   flex: 1;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 #home-a .main-wrapper .hero-section .info-text .small-text {
@@ -537,7 +539,7 @@ ul {
   left: 44%;
 }
 #home-a .main-wrapper .hero-section .info-text .small-text .small-text p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ccc;
 }
 #home-a .main-wrapper .hero-section .info-text .small-text a {
@@ -556,7 +558,7 @@ ul {
   height: 190vh;
 }
 #about-a .section-title {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 40px;
@@ -578,11 +580,12 @@ ul {
 #about-a .statement h4 {
   margin-bottom: 1.3rem;
   font-size: 1.3rem;
-  color: #607d8b;
+  text-transform: none;
+  color: #d3d9d4;
 }
 #about-a .statement p {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
 }
 #about-a .statement .lists {
@@ -602,7 +605,7 @@ ul {
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #ceo {
@@ -643,16 +646,14 @@ ul {
 #ceo h2 {
   text-align: center;
   margin-right: 8%;
+  text-transform: none;
   color: #fff;
 }
 #ceo h4 {
   font-size: 1.3rem;
+  text-transform: none;
   font-weight: 500;
   margin-bottom: 10px;
-}
-#ceo .bottom-line {
-  margin-left: 45%;
-  margin-top: 1rem;
 }
 
 #contact {
@@ -682,6 +683,7 @@ ul {
 .section-header h2 {
   color: #fff;
   font-size: 2em;
+  text-transform: none !important;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -720,7 +722,7 @@ ul {
 .contact-info .contact-info-item .contact-info-icon i {
   font-size: 30px;
   text-align: center;
-  margin-left: 17px;
+  margin-left: 19px;
   color: #212a31;
   line-height: 70px;
 }
@@ -747,9 +749,10 @@ ul {
 }
 .contact-form h2 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.8rem;
+  text-transform: none;
   margin-bottom: 10px;
-  color: #333;
+  color: #212a31;
 }
 .contact-form .input-box {
   position: relative;
@@ -804,6 +807,10 @@ ul {
   font-size: 1rem;
 }
 
+#work-a h1 {
+  font-size: 3rem !important;
+}
+
 main {
   min-height: 100vh;
   display: flex;
@@ -821,13 +828,13 @@ main .container {
 }
 main .container h2 {
   font-size: 1.7rem;
-  color: #121212;
-  font-weight: 500;
+  color: #212a31;
+  font-weight: 600;
   text-align: center;
 }
 main .container p {
   font-size: 1rem;
-  color: #121212;
+  color: #212a31;
   text-align: center;
 }
 main .form {
