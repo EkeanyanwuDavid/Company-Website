@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/23cf488eed.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="dist/css/main.css" />
     <link
       rel="shortcut icon"
@@ -16,7 +17,7 @@
 
     <title>Benny Elite Engineering | Contact</title>
   </head>
-  <body>
+  <body class="bg">
     <!-- Header -->
     <header id="header-inner">
       <div class="container">
@@ -58,81 +59,88 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="img">
-        <img src="/dist/img/brice-cooper-K8G4IBRkcCc-unsplash.jpg" alt="" />
+      <div class="container">
+        <div class="section-header">
+          <h2>Get in Touch</h2>
+          <p>
+            Get in touch with our team of expert engineers today! Whether you
+            have a complex project in mind, need consultation on a technical
+            challenge, or simply want to discuss potential collaboration
+            opportunities<br />
+            Fill out the form below or reach out to us directly via email or
+            phone.
+          </p>
+        </div>
+        <div class="row contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="contact-info-content">
+                <h4>Address</h4>
+                <p>
+                  No. 49, Airport Road, Rumuodumaya,<br />
+                  Portharcourt, Riverstate
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-info-content">
+                <h4>Phone</h4>
+                <p>08084684903 & 08032072628</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-content">
+                <h4>Email</h4>
+                <p>bennyengineeringltd@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact-form bg-primary py-2">
-        <h1 class="m-heading"><span>Contact us now</span></h1>
-        <p>Please Use The Form To Contact Us</p>
+      <div class="contact-form">
         <form
           action="https://formsubmit.co/bennyengineeringltd@gmail.com"
           method="POST"
-          class="form"
+          id="contact-form"
         >
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              required
-              placeholder="Enter Name"
-            />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Email"
-              required
-            />
+          <h2>Reach us</h2>
+          <div class="input-box">
+            <input type="text" name="name" id="name" required />
+            <span>Full Name</span>
           </div>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea
-              name="message"
-              placeholder="Enter Message"
-              id="message"
-              required
-            ></textarea>
+          <div class="input-box">
+            <input type="email" name="email" id="email" required />
+            <span>Email</span>
+          </div>
+
+          <div class="input-box">
+            <textarea name="textarea" id="textarea" required></textarea>
+            <span>Type your Message...</span>
+          </div>
+          <div class="input-box">
+            <button class="btn-dark" type="submit">Send</button>
           </div>
           <input
             type="hidden"
             name="_redirect"
             value="https://bennyeliteengineeringlimited.netlify.app/thank-you.html"
           />
-          <input type="hidden" name="_subject" value="New submission!" />
-          <button type="submit" id="submit" class="btn-main">Contact us</button>
         </form>
       </div>
     </section>
 
-    <section id="contact-b" class="py-3">
-      <div class="container">
-        <div class="contact-info">
-          <div>
-            <i class="fas fa-envelope fa-2x"></i>
-            <h3>Email</h3>
-            <a href="mailto:bennyengineeringltd@gmail.com"
-              >bennyengineeringltd@gmail.com</a
-            >
-          </div>
-          <div>
-            <i class="fas fa-phone fa-2x"></i>
-            <h3 class="phone">Phone</h3>
-            <p>+2348032072628 & +238084684903</p>
-          </div>
-          <div>
-            <i class="fas fa-address-card fa-2x"></i>
-            <h3>Address</h3>
-            <p>No.49, Airport Road, Rumuodumaya, Portharcourt, Riverstate</p>
-          </div>
-        </div>
-      </div>
-    </section>
     <footer id="main-footer">
       <div class="footer-content container">
         <p class="name">

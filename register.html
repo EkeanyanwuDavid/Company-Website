@@ -60,65 +60,132 @@
     </header>
 
     <!-- Register -->
-
-    <section id="register">
-      <div class="container">
-        <div class="register-writeup">
-          <h2>Join Our Team</h2>
-
-          <p class="card">
+    <main>
+      <section id="register">
+        <div class="container">
+          <h2>Registration Form</h2>
+          <p>
             We're excited to have you consider joining us.<br />
             Please fill the form below to drop your CV and become part of our
             growing family.
           </p>
-        </div>
 
-        <div class="register-section">
           <form
+            class="form"
             action="https://formspree.io/f/mrblqdrz"
             method="POST"
             enctype="multipart/form-data"
             id="registerForm"
           >
-            <p class="m-heading">Apply Here</p>
-            <input type="text" name="name" id="name" placeholder="Name" />
-
-            <input type="email" name="email" id="email" placeholder="Email" />
-            <input type="tel" name="phone" id="phone" placeholder="Phone" />
-
-            <input type="url" name="link" id="link" placeholder="Link To Cv" />
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Your Reason for Applying"
-            ></textarea>
-            <!-- <div class="upload-wrapper">
-              <label for="cv-upload" class="upload-label">Upload CV</label>
+            <div class="input-box">
+              <label for="Full Name">Full Name</label>
               <input
-                type="file"
-                name="file"
-                id="cv-upload"
-                class="upload-input"
-                accept=".pdf, .doc, .docx"
-                onchange="handleCvUpload()"
-                style="display: none"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter Full Name"
+                required
               />
-              <div id="cvStatus" style="margin-top: 10px"></div>
-              <p id="file-name" class="file-name-text"></p>
-            </div> -->
+            </div>
+            <div class="input-box">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
 
-            <input
-              type="hidden"
-              name="_redirect"
-              value="https://bennyeliteengineeringlimited.netlify.app/thank-you.html"
-            />
-            <input type="hidden" name="_subject" value="New submission!" />
-            <button type="submit" class="btn-main" id="submit">Submit</button>
+            <div class="column">
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter phone Number"
+                />
+              </div>
+              <div class="input-box">
+                <label>Birth Date</label>
+                <input
+                  type="date"
+                  name="birth"
+                  id="birth"
+                  placeholder="Enter birth date"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="gender-box">
+              <h3>Gender</h3>
+              <div class="gender-option">
+                <div class="gender">
+                  <input type="radio" name="gender" checked id="check-male" />
+                  <label for="check-male">Male</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" name="gender" id="check-female" />
+                  <label for="check-female">Female</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" name="gender" id="check-others" />
+                  <label for="check-others">Prefer not to say</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-box">
+              <label>Enter CV</label>
+              <input
+                type="url"
+                name="url"
+                id="url"
+                required
+                placeholder="Enter CV URL from Google Drive"
+              />
+            </div>
+
+            <div class="input-box addres">
+              <label>Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Enter street address"
+                required
+              />
+              <div class="column">
+                <div class="select-box">
+                  <select>
+                    <option hidden>Country</option>
+                    <option>Nigeria</option>
+                    <option>America</option>
+                    <option>India</option>
+                    <option>Ghana</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="column">
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Enter your city"
+                  required
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn-dark">Join us</button>
           </form>
-          <div id="my-form-status"></div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer id="main-footer">
