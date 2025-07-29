@@ -1081,12 +1081,12 @@ main .btn-dark:hover {
   .header-content .content-btn {
     display: flex;
   }
-  #home-a .img-wrapper {
-    width: 150%;
+  #home-a img {
+    width: 100% !important;
   }
   #home-a .img-wrapper .overlay-text {
     font-size: 1rem !important;
-    margin-top: 10%;
+    margin-top: 18%;
   }
   #home-a .info-text .headline {
     font-size: 0.9rem !important;
@@ -1097,7 +1097,7 @@ main .btn-dark:hover {
     min-height: 100%;
     max-width: 100%;
     flex: 1;
-    font-size: 0.9rem !important;
+    font-size: 0.6rem !important;
     flex-wrap: wrap;
   }
   #about-a .section-title {

@@ -160,12 +160,13 @@
   }
 
   #home-a {
+    img {
+      width: 100% !important;
+    }
     .img-wrapper {
-      width: 150%;
-
       .overlay-text {
         font-size: 1rem !important;
-        margin-top: 10%;
+        margin-top: 18%;
       }
     }
 
@@ -179,7 +180,7 @@
         min-height: 100%;
         max-width: 100%;
         flex: 1;
-        font-size: 0.9rem !important;
+        font-size: 0.6rem !important;
         flex-wrap: wrap;
       }
     }
