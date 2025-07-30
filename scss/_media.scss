@@ -135,11 +135,23 @@
     row-gap: 15px;
   }
 
+  #home-a {
+    .secondary-img {
+      display: flex;
+      flex-direction: row;
+      .space {
+        display: block;
+
+        position: relative !important;
+        right: 210%;
+      }
+    }
+  }
   // NAVBAR
 
   #main-nav {
     .logo {
-      font-size: 0.9rem;
+      font-size: 0.8rem !important;
       position: relative;
       right: 18%;
     }
@@ -163,9 +175,10 @@
     img {
       width: 100% !important;
     }
+
     .img-wrapper {
       .overlay-text {
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         margin-top: 18%;
       }
     }
@@ -237,6 +250,13 @@
   }
 }
 
+//IPHONE 12 CONTACT
+@media screen and (max-width: 400px) {
+  .contact-info-icon {
+    margin-left: -0.9rem !important;
+  }
+}
+
 // CONTACT PAGE
 @media (max-width: 991px) {
   #contact {
@@ -270,7 +290,7 @@
 @media screen and (max-width: 400px) {
   #main-nav {
     .logo {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
   }
 

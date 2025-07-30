@@ -368,6 +368,10 @@
   box-sizing: border-box;
 }
 
+.space {
+  display: none;
+}
+
 img {
   width: 50%;
 }
@@ -1071,8 +1075,17 @@ main .btn-dark:hover {
   .form :where(.gender-option, .gender) {
     row-gap: 15px;
   }
+  #home-a .secondary-img {
+    display: flex;
+    flex-direction: row;
+  }
+  #home-a .secondary-img .space {
+    display: block;
+    position: relative !important;
+    right: 210%;
+  }
   #main-nav .logo {
-    font-size: 0.9rem;
+    font-size: 0.8rem !important;
     position: relative;
     right: 18%;
   }
@@ -1089,7 +1102,7 @@ main .btn-dark:hover {
     width: 100% !important;
   }
   #home-a .img-wrapper .overlay-text {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     margin-top: 18%;
   }
   #home-a .info-text .headline {
@@ -1135,6 +1148,11 @@ main .btn-dark:hover {
     text-transform: none;
   }
 }
+@media screen and (max-width: 400px) {
+  .contact-info-icon {
+    margin-left: -0.9rem !important;
+  }
+}
 @media (max-width: 991px) {
   #contact {
     padding-top: 50px;
@@ -1162,7 +1180,7 @@ main .btn-dark:hover {
 }
 @media screen and (max-width: 400px) {
   #main-nav .logo {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .header-content .title {
     font-size: 1.7rem !important;
